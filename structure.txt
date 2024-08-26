@@ -1,0 +1,6 @@
+navbar
+hero for home
+contact me 
+skills
+project
+footer
