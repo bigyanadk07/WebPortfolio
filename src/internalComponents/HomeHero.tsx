@@ -61,7 +61,7 @@ const HomeHero:React.FC = () => {
 
             <div className="space-y-4">
               <p className="text-2xl font-medium bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text">
-                I'm Bigyan Adhikari
+                I'm Bigyan Adk
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 Based in Nepal, I'm a Web Developer-Designer, Programmer, and Writer passionate about building great UIs and writing fantasy-fiction and, of course, Games.
