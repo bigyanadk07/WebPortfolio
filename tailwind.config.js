@@ -6,7 +6,26 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        'fade-up': 'fadeUp 0.5s ease-out',
+        'wave': 'wave 1.5s infinite',
+        'pulse': 'pulse 2s infinite',
+      },
       keyframes: {
+        fadeUp: {
+          '0%': { opacity: '0', transform: 'translateY(10px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        wave: {
+          '0%': { transform: 'rotate(0deg)' },
+          '10%': { transform: 'rotate(14deg)' },
+          '20%': { transform: 'rotate(-8deg)' },
+          '30%': { transform: 'rotate(14deg)' },
+          '40%': { transform: 'rotate(-4deg)' },
+          '50%': { transform: 'rotate(10deg)' },
+          '60%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(0deg)' },
+        },
         subtleFloat: {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-5px)' },

@@ -1,7 +1,8 @@
 import React from 'react';
-import { FaReact, FaHtml5, FaCss3, FaJs, FaPython, FaGitAlt } from 'react-icons/fa';
+import { FaReact, FaHtml5, FaCss3, FaJs, FaPython, FaGitAlt,FaJava  } from 'react-icons/fa';
+import {SiAdobephotoshop } from 'react-icons/si';
 import { DiNodejs, DiMongodb } from 'react-icons/di';
-import { SiTailwindcss, SiAdobe } from 'react-icons/si';
+import { SiTailwindcss, SiAdobe, SiAdobepremierepro } from 'react-icons/si';
 import excelSvg from '../images/excel.svg'; // Import SVG file
 import { FiFigma } from 'react-icons/fi';
 
@@ -57,6 +58,9 @@ const Skills: React.FC = () => {
           <SkillCard icon={<FiFigma />} label="Figma" />
           <SkillCard icon={<img src={excelSvg} alt="Excel" className="w-12 h-12" />} label="Excel" />
           <SkillCard icon={<SiAdobe />} label="Adobe XD" />
+          <SkillCard icon={<SiAdobephotoshop />} label="Adobe Photoshop" />
+          <SkillCard icon={<FaJava/>} label="Java" />
+          <SkillCard icon={<SiAdobepremierepro/>} label="Premiere Pro" />
         </div>
       </div>
     </section>

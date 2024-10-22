@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import {Github, Linkedin, Twitter } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -23,32 +23,17 @@ const Footer: React.FC = () => {
     </div>
 </h2>
           {/* Social Media Links */}
-          <div className="flex justify-center space-x-6 mt-4 text-2xl">
-            <a
-              href="https://www.linkedin.com/in/yourprofile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-blue-500 transition-colors duration-300"
-            >
-              <FaLinkedin />
-            </a>
-            <a
-              href="https://github.com/yourprofile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-300 transition-colors duration-300"
-            >
-              <FaGithub />
-            </a>
-            <a
-              href="https://twitter.com/yourprofile"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-blue-400 transition-colors duration-300"
-            >
-              <FaTwitter />
-            </a>
-          </div>
+          <div className="flex gap-4 justify-center">
+              <a href="https://github.com/bigyanadk07/" target="_blank" className="p-2 hover:bg-white/10 rounded-lg transition-colors">
+                <Github className="w-6 h-6" />
+              </a>
+              <a href="https://www.linkedin.com/in/bigyanadhikari07" target="_blank" className="p-2 hover:bg-white/10 rounded-lg transition-colors">
+                <Linkedin className="w-6 h-6" />
+              </a>
+              <a href="https://twitter.com/" target="_blank" className="p-2 hover:bg-white/10 rounded-lg transition-colors">
+                <Twitter className="w-6 h-6" />
+              </a>
+            </div>
         </div>
       </div>
     </footer>

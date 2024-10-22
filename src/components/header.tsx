@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa';
+import {Github, Linkedin, Twitter } from 'lucide-react';
 import Logo from '../images/bigyanLogo.png';
 
 const Header: React.FC = () => {
@@ -33,32 +33,17 @@ const Header: React.FC = () => {
         </div>
         
         {/* Social Media Icons Section */}
-        <div className="flex space-x-6 text-xl">
-          <a
-            href="https://www.linkedin.com/in/bigyanadhikari07"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-blue-500 transition-colors duration-300"
-          >
-            <FaLinkedin />
-          </a>
-          <a
-            href="https://github.com/bigyanadk07/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-gray-300 transition-colors duration-300"
-          >
-            <FaGithub />
-          </a>
-          <a
-            href="https://twitter.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-blue-400 transition-colors duration-300"
-          >
-            <FaTwitter />
-          </a>
-        </div>
+        <div className="flex gap-4">
+              <a href="https://github.com/bigyanadk07/" target="_blank" className="p-2 hover:bg-white/10 rounded-lg transition-colors">
+                <Github className="w-6 h-6" />
+              </a>
+              <a href="https://www.linkedin.com/in/bigyanadhikari07" target="_blank" className="p-2 hover:bg-white/10 rounded-lg transition-colors">
+                <Linkedin className="w-6 h-6" />
+              </a>
+              <a href="https://twitter.com/" target="_blank" className="p-2 hover:bg-white/10 rounded-lg transition-colors">
+                <Twitter className="w-6 h-6" />
+              </a>
+            </div>
       </div>
     </header>
   );
