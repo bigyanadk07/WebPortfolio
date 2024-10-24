@@ -21,6 +21,7 @@ import Project15 from '../images/productimage.png';
 import Project16 from '../images/fantasynovel.png'; 
 import Project17 from '../images/budgettracker.png'; 
 import Project18 from "../images/menr.png"
+import Project19 from "../images/ExpenseTracker.png"
 
 
 
@@ -54,6 +55,19 @@ const projectsData = [
       <FaNodeJs key="NodeJS" className="w-6 h-6 mx-1" />,
     ],
     image: Project3,
+  },
+  {
+    title: "Expensio - Expense Tracker",
+    description: "A full-stack expense tracking app designed to allow users to manager their finance with ease.",
+    category: "Full Stack",
+    techStack: [
+      <DiMongodb key="MongoDB" className="w-6 h-6 mx-1" />,
+      <img key="express" src={express} alt="Express" className="w-6 h-6 mx-1" />,
+      <FaReact key="react" className="w-6 h-6 mx-1" />,
+      <FaNodeJs key="NodeJS" className="w-6 h-6 mx-1" />,
+      <img key="tailwind" src={tailwind} alt="TailwindCSS" className="w-6 h-6 mx-1" />,
+    ],
+    image: Project19,
   },
   {
     title: "Web Portfolio",
