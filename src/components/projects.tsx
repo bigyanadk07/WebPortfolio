@@ -20,11 +20,12 @@ import Project14 from '../images/brandingpackage.png';
 import Project15 from '../images/productimage.png'; 
 import Project16 from '../images/fantasynovel.png'; 
 import Project17 from '../images/budgettracker.png'; 
+import Project18 from "../images/menr.png"
 
 
 
 import React, { useState } from 'react';
-import { FaReact, FaNodeJs, FaCss3, FaJsSquare, FaHtml5, FaPython, FaFileExcel, FaFileWord } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaCss3, FaJsSquare, FaHtml5, FaPython, FaFileExcel, FaFileWord,  } from 'react-icons/fa';
 import { DiMongodb } from 'react-icons/di';
 import {SiAdobephotoshop } from 'react-icons/si';
 
@@ -34,10 +35,10 @@ const projectsData = [
     description: "A full-stack food ordering web application with real-time order tracking.",
     category: "Full Stack",
     techStack: [
-      <FaReact key="react" className="w-6 h-6 mx-1" />,
-      <FaNodeJs key="node" className="w-6 h-6 mx-1" />,
+      <DiMongodb key="MongoDB" className="w-6 h-6 mx-1" />,
       <img key="express" src={express} alt="Express" className="w-6 h-6 mx-1" />,
-      <DiMongodb key="mongodb" className="w-6 h-6 mx-1" />,
+      <FaReact key="react" className="w-6 h-6 mx-1" />,
+      <FaNodeJs key="NodeJS" className="w-6 h-6 mx-1" />,
       <img key="tailwind" src={tailwind} alt="TailwindCSS" className="w-6 h-6 mx-1" />,
     ],
     image: Project1,
@@ -47,10 +48,10 @@ const projectsData = [
     description: "A feature-rich blogging platform with user authentication and markdown support.",
     category: "Full Stack",
     techStack: [
-      <FaReact key="react" className="w-6 h-6 mx-1" />,
-      <FaNodeJs key="node" className="w-6 h-6 mx-1" />,
+      <DiMongodb key="MongoDB" className="w-6 h-6 mx-1" />,
       <img key="express" src={express} alt="Express" className="w-6 h-6 mx-1" />,
-      <DiMongodb key="mongodb" className="w-6 h-6 mx-1" />,
+      <FaReact key="react" className="w-6 h-6 mx-1" />,
+      <FaNodeJs key="NodeJS" className="w-6 h-6 mx-1" />,
     ],
     image: Project3,
   },
@@ -98,6 +99,19 @@ const projectsData = [
       <img key="sql" src={sql} alt="SQL" className="w-6 h-6 mx-1" />,
     ],
     image: Project4,
+  },
+  {
+    title: "MERN CRUD App",
+    description: "A basic template for MERN CRUD Operations",
+    category: "Backend",
+    techStack: [
+      <DiMongodb key="MongoDB" className="w-6 h-6 mx-1" />,
+      <img key="express" src={express} alt="Express" className="w-6 h-6 mx-1" />,
+      <FaReact key="react" className="w-6 h-6 mx-1" />,
+      <FaNodeJs key="NodeJS" className="w-6 h-6 mx-1" />,
+      
+    ],
+    image: Project18,
   },
   {
     title: "Password Manager",
