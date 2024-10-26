@@ -25,12 +25,6 @@ const projectsData: Project[] = [
     startDate: "01/09/2024",
     type: "UI Library",
     description: "A comprehensive Tailwind UI component library website offering ready-to-use, customizable components.",
-  },
-  {
-    name: "Personal Finance Tracker",
-    startDate: "01/08/2024",
-    type: "Full Stack Development",
-    description: "A full-stack web application for managing personal finances, budgeting, and expense tracking.",
   }
 ];
 
