@@ -5,6 +5,7 @@ import { DiNodejs, DiMongodb } from 'react-icons/di';
 import { SiTailwindcss, SiAdobe, SiAdobepremierepro } from 'react-icons/si';
 import excelSvg from '../images/excel.svg'; // Import SVG file
 import { FiFigma } from 'react-icons/fi';
+import { FaWordpress } from 'react-icons/fa';
 
 const Skills: React.FC = () => {
   return (
@@ -56,6 +57,7 @@ const Skills: React.FC = () => {
           <SkillCard icon={<FaHtml5 />} label="HTML" />
           <SkillCard icon={<FaCss3 />} label="CSS" />
           <SkillCard icon={<FiFigma />} label="Figma" />
+          <SkillCard icon={<FaWordpress/>} label="Wordpress" />
           <SkillCard icon={<img src={excelSvg} alt="Excel" className="w-12 h-12" />} label="Excel" />
           <SkillCard icon={<SiAdobe />} label="Adobe XD" />
           <SkillCard icon={<SiAdobephotoshop />} label="Adobe Photoshop" />
