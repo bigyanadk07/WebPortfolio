@@ -6,6 +6,7 @@ import Projects from '../components/projects'
 import Footer from '../components/footer'
 import OngoingProj from '../components/ongoingprojects'
 import ContactSection from '../components/contact'
+import Certifications from './certifications'
 
 const home:React.FC = () => {
   return (
@@ -14,6 +15,7 @@ const home:React.FC = () => {
         <Homehero/>
         <Skills/>
         <Projects/>
+        <Certifications/>
         <OngoingProj/>
         <ContactSection/>
         <Footer/>
