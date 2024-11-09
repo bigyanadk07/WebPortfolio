@@ -9,6 +9,12 @@ const Certifications: React.FC = () => {
       date: "November 2024",
       link: "https://www.mygreatlearning.com/certificate/KUBQCROR",
     },
+    {
+      title: "  Advanced Cyber Security - Threats and Governance",
+      issuer: "Great Learning",
+      date: "November 2024",
+      link: "https://www.mygreatlearning.com/certificate/BOONRYAH",
+    },
   ];
 
   return (
